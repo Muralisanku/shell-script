@@ -5,7 +5,7 @@ ID=$(id -u)
 echo "script name: $0"
 TIMESTAMP=$(date +%F-%H-%M-%S)
 
-LOGFILE="/tmp/$0-$TIMESTAMP.log
+LOGFILE="/tmp/$0-$TIMESTAMP.log"
 
 
 VALIDATE(){
