@@ -11,7 +11,7 @@ then
     echo -e " $R Please run the script with root access $N"
     exit 1
 else
-    echo " $G you are root user $N"
+    echo -e "$G you are root user $N"
 fi
 
 echo "All arguments passed :: $@"
