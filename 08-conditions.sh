@@ -2,7 +2,7 @@
 
 if [ %u != sunday ]
 then
-   print "go to school"
+   echo "go to school"
 else 
-   print "Happy holiday"
+   echo "Happy holiday"
 fi
